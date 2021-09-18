@@ -1,0 +1,247 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'CrimsonText-SemiBold';
+}
+
+.textBox {
+  text-align: center;
+  background-color: rgb(236, 242, 248);
+  padding: 0 1em 1em 1em;
+  margin: 5em 1em 1em 1em;
+  border: 2px solid rgb(68, 68, 68);
+  border-radius: 5px;
+  box-shadow: 4px 2px 5px #444;
+  height: 75vh;
+  width: 75vw;
+  z-index: 100;
+}
+
+.Form {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
+  justify-content: center;
+  font-family: 'CrimsonText-SemiBold';
+}
+
+.nameInput {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-family: 'CrimsonText-SemiBold';
+}
+
+.emailInput {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-family: 'CrimsonText-SemiBold';
+}
+
+.companyInput {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-family: 'CrimsonText-SemiBold';
+}
+
+.subjectInput {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-family: 'CrimsonText-SemiBold';
+}
+
+.textArea {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 800px;
+  height: 400px;
+  border-radius: 5px;
+  font-family: 'CrimsonText-SemiBold';
+  resize: none;
+}
+
+.submitButton {
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #4589b6;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  border-radius: 2px;
+  color: #2e2e2d;
+  font-size: 2em;
+  font-family: 'CrimsonText-SemiBold';
+  font-weight: 550;
+  height: 50px;
+}
+
+.ContactButton {
+  background-color: #b9b8b5;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  border-radius: 2px;
+  color: #2e2e2d;
+  font-size: 24px;
+  font-family: 'CrimsonText-SemiBold';
+  font-weight: 550;
+}
+
+.modalCloseButton {
+  background-color: #b9b8b5;
+  width: 75px;
+  height: 20px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 2px;
+  color: #2e2e2d;
+  font-size: 16px;
+  font-family: 'CrimsonText-SemiBold';
+  font-weight: 550;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media(max-width: 499px) {
+  .textBox {
+    margin-top: 1em;
+  }
+  .Contact {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .Title {
+    font-family: 'CrimsonText-SemiBold';
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 70px;
+  }
+  
+  .formWrapper {
+    display: block;
+    text-align: center;
+  }
+  
+  .Form {
+    display: grid;
+    margin-top: 30px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    font-family: 'CrimsonText-SemiBold';
+  }
+  
+  .nameInput {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'CrimsonText-SemiBold';
+  }
+
+  .emailInput {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'CrimsonText-SemiBold';
+  }
+
+  .companyInput {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'CrimsonText-SemiBold';
+  }
+  
+  .subjectInput {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'CrimsonText-SemiBold';
+  }
+  
+  .textArea {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 80vw;
+    height: 20vw;
+    border-radius: 5px;
+    font-family: 'CrimsonText-SemiBold';
+    resize: none;
+  }
+  
+  .submitButton {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #b9b8b5;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    color: #2e2e2d;
+    font-size: 20px;
+    width: 100px;
+    font-family: 'CrimsonText-SemiBold';
+    font-weight: 550;
+    height: 30px;
+  }
+
+  .submitButton:hover {
+    color: #D1DAE0;
+  }
+  
+  .ContactButton {
+    background-color: #b9b8b5;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    border-radius: 2px;
+    color: #2e2e2d;
+    font-size: 24px;
+    font-family: 'CrimsonText-SemiBold';
+    font-weight: 550;
+  }
+}

@@ -1,0 +1,16 @@
+.Content {
+  padding-top: 4.5em;
+  height: 75vh;
+  overflow-x: hidden;
+}
+
+.Footer{
+  height: 10vh;
+}
+
+
+@media(min-width: 500px) {
+  .Content {
+    height: auto;
+  }
+}

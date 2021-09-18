@@ -1,0 +1,137 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.title {
+  margin-top: 0;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: CrimsonText-SemiBold;
+}
+
+.newPost {
+  border: 2px solid #2e2e2d;
+  box-shadow: 2px 4px 5px #444;
+  background-color: #4589b6;
+  height: 1.9rem;
+  width: 50%;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: transparent;
+  font-family: 'CrimsonText-SemiBold';
+  font-size: 1.25em;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.text {
+  font-family: CrimsonText-Regular;
+  text-decoration: none;
+  color: black;
+}
+
+.post {
+  padding: 0 1em 1em 1em;
+  margin: 1em;
+  background-color: rgb(236, 242, 248);
+  border: 2px solid rgb(68, 68, 68);
+  border-radius: 5px;
+  box-shadow: 4px 2px 5px #444;
+  width: 75vw;
+  box-shadow: 4px 2px 5px #444;
+}
+
+.dateBlock {
+  font-weight: bold;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 0.5em;
+}
+
+.postTitle {
+  margin-top: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.postDescription {
+  margin-left: 1em;
+  margin-top: 0;
+  text-align: left;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+}
+
+.navButton {
+  border: 2px solid #2e2e2d;
+  box-shadow: 2px 4px 5px #444;
+  background-color: #4589b6;
+  height: 1.9rem;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: transparent;
+  margin-top: 0.5em;
+  font-family: 'CrimsonText-SemiBold';
+  font-size: 1.25em;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0.25em;
+}
+
+.navButton:hover {
+  color: #D1DAE0;
+}
+
+.prevButton {
+  justify-self: left;
+}
+
+.nextButton {
+  justify-self: right;
+}
+
+@media(min-width: 500px) {
+  .posts {
+    position: relative;
+    z-index: 100;
+    margin-top: 8em;
+    height: auto;
+    overflow: auto;
+  }
+
+  .newPost {
+    z-index: 100;
+    align-self: right;
+    justify-self: right;
+  }
+
+  .newPost:hover {
+    color: #D1DAE0;
+  }
+
+
+  .buttonContainer {
+    width: 75vw;
+  }
+  
+}
+
