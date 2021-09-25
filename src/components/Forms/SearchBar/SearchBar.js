@@ -71,7 +71,6 @@ const SearchBar = (props) => {
     );
   }
 
-  console.log(searchResults);
   return (
     <div className={classes.SearchBar}>
       <form onSubmit={handleSubmit} className={classes.searchForm}>
