@@ -15,4 +15,3 @@ const prodInstance = axios.create({
 });
 
 export default prodInstance;
-
