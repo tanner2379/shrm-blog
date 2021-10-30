@@ -8,7 +8,7 @@ const instance = axios.create({
 });
 
 const prodInstance = axios.create({
-  baseURL: "https://highsoaringministries-api.herokuapp.com/api/v1/",
+  baseURL: "https://www.highsoaringministries-api.herokuapp.com/api/v1/",
   xsrfCookieName: "CSRF-TOKEN",
   xsrfHeaderName: "X-CSRF-Token",
   withCredentials: true,
