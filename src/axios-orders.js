@@ -12,7 +12,7 @@ const prodInstance = axios.create({
   xsrfCookieName: "CSRF-TOKEN",
   xsrfHeaderName: "X-CSRF-Token",
   withCredentials: true,
-  headers: { "Access-Control-Allow-Origin": "*" },
+  headers: { Origin: "*" },
 });
 
 export default prodInstance;
