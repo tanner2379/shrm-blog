@@ -14,7 +14,8 @@ const prodInstance = axios.create({
   withCredentials: true,
   headers: {
     Origin: "https://www.highsoaringministries.com",
-    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin":
+      "https://highsoaringministries-api.herokuapp.com",
   },
 });
 
