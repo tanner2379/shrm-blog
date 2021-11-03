@@ -13,9 +13,8 @@ const prodInstance = axios.create({
   xsrfHeaderName: "X-CSRF-Token",
   withCredentials: true,
   headers: {
-    Origin: "https://www.highsoaringministries.com",
-    "Access-Control-Allow-Origin":
-      "https://highsoaringministries-api.herokuapp.com",
+    Origin: "*",
+    "Access-Control-Allow-Origin": "*",
   },
 });
 
