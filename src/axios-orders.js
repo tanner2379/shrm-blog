@@ -14,6 +14,7 @@ const prodInstance = axios.create({
   withCredentials: true,
   headers: {
     Origin: "*",
+    "Access-Control-Allow-Origin": "*",
   },
 });
 
