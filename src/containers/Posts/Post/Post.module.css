@@ -41,5 +41,7 @@
   .textBox {
     z-index: 100;
     font-size: 1.25em;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }

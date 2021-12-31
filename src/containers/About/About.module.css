@@ -67,5 +67,6 @@
     margin-right: 5vw;
     margin-top: 0;
     font-size: 1.25em;
+    overflow: hidden;
   }
 }

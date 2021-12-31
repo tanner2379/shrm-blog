@@ -35,19 +35,20 @@
 @media(min-width: 500px) {
 
   .title {
-    margin-top: 18vh;
+    margin-top: 20vh;
     font-size: 3rem;
   }
 
   .textBox{
     z-index: 200;
-    margin-top: 10vh;
+    margin-top: 8vh;
     text-align: center;
     height: 20em;
     display: flex;
     align-items: center;
     background-color: #D1DAE0;
     border: none;
+    overflow: hidden;
   }
 
   .text {
