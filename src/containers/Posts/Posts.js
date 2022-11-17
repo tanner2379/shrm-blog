@@ -44,7 +44,7 @@ const Posts = () => {
       ) : null}
       <p className={classes.title}>Articles</p>
       {posts
-        ? posts.map((post) => {
+        ? posts.reverse().map((post) => {
             return (
               <Link
                 to={`/posts/${post.slug}`}
